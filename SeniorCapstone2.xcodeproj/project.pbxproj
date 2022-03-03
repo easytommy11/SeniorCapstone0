@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2841953427CFB7B300085373 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841953327CFB7B300085373 /* Utilities.swift */; };
-		2841953827D037EB00085373 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2841953727D037EB00085373 /* signUpViewController.swift */; };
+		2898F18127D1079F00C880D2 /* signUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898F18027D1079F00C880D2 /* signUpViewController.swift */; };
 		289BD48127CD355E00BB7F9A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BD48027CD355E00BB7F9A /* LogInViewController.swift */; };
 		289BD48527CD358A00BB7F9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BD48427CD358A00BB7F9A /* HomeViewController.swift */; };
 		5DBAB7EA27CD2A00009953B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAB7E927CD2A00009953B2 /* AppDelegate.swift */; };
@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		2841953327CFB7B300085373 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		2841953727D037EB00085373 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
+		2898F18027D1079F00C880D2 /* signUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpViewController.swift; sourceTree = "<group>"; };
 		289BD48027CD355E00BB7F9A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		289BD48427CD358A00BB7F9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5DBAB7E627CD2A00009953B2 /* SeniorCapstone2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorCapstone2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,7 +66,7 @@
 			children = (
 				5DBAB7E927CD2A00009953B2 /* AppDelegate.swift */,
 				5DBAB7EB27CD2A00009953B2 /* SceneDelegate.swift */,
-				2841953727D037EB00085373 /* signUpViewController.swift */,
+				2898F18027D1079F00C880D2 /* signUpViewController.swift */,
 				289BD48027CD355E00BB7F9A /* LogInViewController.swift */,
 				289BD48427CD358A00BB7F9A /* HomeViewController.swift */,
 				5DBAB7ED27CD2A00009953B2 /* ViewController.swift */,
@@ -150,7 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2841953827D037EB00085373 /* signUpViewController.swift in Sources */,
+				2898F18127D1079F00C880D2 /* signUpViewController.swift in Sources */,
 				289BD48127CD355E00BB7F9A /* LogInViewController.swift in Sources */,
 				5DBAB7EE27CD2A00009953B2 /* ViewController.swift in Sources */,
 				2841953427CFB7B300085373 /* Utilities.swift in Sources */,

@@ -2,7 +2,7 @@
 //  signUpViewController.swift
 //  SeniorCapstone2
 //
-//  Created by Jeffrey Voltaire on 3/2/22.
+//  Created by Jeffrey Voltaire on 3/3/22.
 //
 
 import UIKit
@@ -28,18 +28,19 @@ class signUpViewController: UIViewController {
             Utilities.styleTextField(emailTextField)
             Utilities.styleTextField(passwordTextField)
             Utilities.styleFilledButton(signUpButton)
-        }
+    }
 
     /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
     }
     */
     @IBAction func signUpTapped(_ sender: Any) {
     }
+
     
 }

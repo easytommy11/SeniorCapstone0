@@ -35,5 +35,7 @@ class LogInViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBAction func loginTapped(_ sender: Any) {
+    }
+    
 }
