@@ -89,8 +89,23 @@
             <objects>
                 <viewController id="tMR-6V-8id" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xCo-cT-Dhd">
-                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="790"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rb6-DB-RkO">
+                                <rect key="frame" x="49" y="53" width="292" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Grade 9 Courses">
+                                        <attributes>
+                                            <font key="NSFont" size="30" name="Chalkduster"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="f5V-po-9DQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -268,12 +283,16 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
+                    <connections>
+                        <segue destination="KuN-iy-V9A" kind="relationship" relationship="viewControllers" id="nfo-4E-qcr"/>
+                        <segue destination="GFy-h6-DQq" kind="relationship" relationship="viewControllers" id="Pab-iu-gpy"/>
+                    </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aTJ-g0-gmz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3284.6153846153843" y="-103.08056872037915"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome-->
         <scene sceneID="ccx-Zy-7HZ">
             <objects>
                 <viewController id="KuN-iy-V9A" sceneMemberID="viewController">
@@ -285,13 +304,6 @@
                                 <rect key="frame" x="64" y="113.66666666666663" width="263" height="162"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Course Connect®" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idf-X5-h0c">
-                                <rect key="frame" x="74" y="122" width="287" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="35"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGG-Tc-YCF">
                                 <rect key="frame" x="16" y="304" width="358" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -355,7 +367,7 @@
                         <viewLayoutGuide key="safeArea" id="heX-FG-qE1"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" selectedImage="circle.inset.filled" catalog="system" id="z5f-7o-SLf"/>
+                    <tabBarItem key="tabBarItem" title="Welcome" image="circle.inset.filled" catalog="system" selectedImage="circle.inset.filled" id="z5f-7o-SLf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kXb-in-sYn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -391,6 +403,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Grade 9">
                                     <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="tMR-6V-8id" kind="show" id="dd2-gZ-n3h"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8h-6j-Ivf">
                                 <rect key="frame" x="131" y="189" width="128" height="44"/>
@@ -431,7 +446,7 @@
                         <viewLayoutGuide key="safeArea" id="11S-mk-IJY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="HOME" selectedImage="magnifyingglass" catalog="system" id="8GF-z7-4UC"/>
+                    <tabBarItem key="tabBarItem" title="HOME" image="magnifyingglass" catalog="system" selectedImage="magnifyingglass" id="8GF-z7-4UC"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezG-9P-QQr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
