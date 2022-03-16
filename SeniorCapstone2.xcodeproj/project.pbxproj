@@ -11,6 +11,7 @@
 		2898F18727D12D3900C880D2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2898F18627D12D3900C880D2 /* SignUpViewController.swift */; };
 		289BD48127CD355E00BB7F9A /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BD48027CD355E00BB7F9A /* LogInViewController.swift */; };
 		289BD48527CD358A00BB7F9A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289BD48427CD358A00BB7F9A /* HomeViewController.swift */; };
+		5D69C36127E0C663001EB9D9 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 5D69C36027E0C663001EB9D9 /* GoogleService-Info (1).plist */; };
 		5DBAB7EA27CD2A00009953B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAB7E927CD2A00009953B2 /* AppDelegate.swift */; };
 		5DBAB7EC27CD2A00009953B2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAB7EB27CD2A00009953B2 /* SceneDelegate.swift */; };
 		5DBAB7EE27CD2A00009953B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAB7ED27CD2A00009953B2 /* ViewController.swift */; };
@@ -18,13 +19,16 @@
 		5DBAB7F327CD2A02009953B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAB7F227CD2A02009953B2 /* Assets.xcassets */; };
 		5DBAB7F627CD2A02009953B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBAB7F427CD2A02009953B2 /* LaunchScreen.storyboard */; };
 		5DBAB7FE27D79E56009953B2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBAB7FD27D79E56009953B2 /* SettingsViewController.swift */; };
+		A2C92A714589A15E129DC3B3 /* Pods_SeniorCapstone2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12F961B31FFE1125AF0B4C3E /* Pods_SeniorCapstone2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12F961B31FFE1125AF0B4C3E /* Pods_SeniorCapstone2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeniorCapstone2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2841953327CFB7B300085373 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		2898F18627D12D3900C880D2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		289BD48027CD355E00BB7F9A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		289BD48427CD358A00BB7F9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		5D69C36027E0C663001EB9D9 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		5DBAB7E627CD2A00009953B2 /* SeniorCapstone2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorCapstone2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DBAB7E927CD2A00009953B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DBAB7EB27CD2A00009953B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +38,8 @@
 		5DBAB7F527CD2A02009953B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DBAB7F727CD2A02009953B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5DBAB7FD27D79E56009953B2 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		79F203F49C0F5357C88F60CD /* Pods-SeniorCapstone2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorCapstone2.release.xcconfig"; path = "Target Support Files/Pods-SeniorCapstone2/Pods-SeniorCapstone2.release.xcconfig"; sourceTree = "<group>"; };
+		A00B639030ACBB4118B162A8 /* Pods-SeniorCapstone2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeniorCapstone2.debug.xcconfig"; path = "Target Support Files/Pods-SeniorCapstone2/Pods-SeniorCapstone2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2C92A714589A15E129DC3B3 /* Pods_SeniorCapstone2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +59,8 @@
 			children = (
 				5DBAB7E827CD2A00009953B2 /* SeniorCapstone2 */,
 				5DBAB7E727CD2A00009953B2 /* Products */,
+				D27F821FB605F44AEAF3C91A /* Pods */,
+				CCA29F33D28503E1FDD5A970 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +87,27 @@
 				5DBAB7F227CD2A02009953B2 /* Assets.xcassets */,
 				5DBAB7F427CD2A02009953B2 /* LaunchScreen.storyboard */,
 				5DBAB7F727CD2A02009953B2 /* Info.plist */,
+				5D69C36027E0C663001EB9D9 /* GoogleService-Info (1).plist */,
 			);
 			path = SeniorCapstone2;
+			sourceTree = "<group>";
+		};
+		CCA29F33D28503E1FDD5A970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12F961B31FFE1125AF0B4C3E /* Pods_SeniorCapstone2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D27F821FB605F44AEAF3C91A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A00B639030ACBB4118B162A8 /* Pods-SeniorCapstone2.debug.xcconfig */,
+				79F203F49C0F5357C88F60CD /* Pods-SeniorCapstone2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5DBAB7FA27CD2A02009953B2 /* Build configuration list for PBXNativeTarget "SeniorCapstone2" */;
 			buildPhases = (
+				E16D9EAF70C61251320A73B9 /* [CP] Check Pods Manifest.lock */,
 				5DBAB7E227CD2A00009953B2 /* Sources */,
 				5DBAB7E327CD2A00009953B2 /* Frameworks */,
 				5DBAB7E427CD2A00009953B2 /* Resources */,
+				8982EA43B0F32E2FF91D9ADC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -141,12 +171,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DBAB7F627CD2A02009953B2 /* LaunchScreen.storyboard in Resources */,
+				5D69C36127E0C663001EB9D9 /* GoogleService-Info (1).plist in Resources */,
 				5DBAB7F327CD2A02009953B2 /* Assets.xcassets in Resources */,
 				5DBAB7F127CD2A00009953B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8982EA43B0F32E2FF91D9ADC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorCapstone2/Pods-SeniorCapstone2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeniorCapstone2/Pods-SeniorCapstone2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeniorCapstone2/Pods-SeniorCapstone2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E16D9EAF70C61251320A73B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeniorCapstone2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5DBAB7E227CD2A00009953B2 /* Sources */ = {
@@ -304,6 +377,7 @@
 		};
 		5DBAB7FB27CD2A02009953B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A00B639030ACBB4118B162A8 /* Pods-SeniorCapstone2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -331,6 +405,7 @@
 		};
 		5DBAB7FC27CD2A02009953B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F203F49C0F5357C88F60CD /* Pods-SeniorCapstone2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
