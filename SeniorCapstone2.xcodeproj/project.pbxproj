@@ -106,7 +106,6 @@
 				A00B639030ACBB4118B162A8 /* Pods-SeniorCapstone2.debug.xcconfig */,
 				79F203F49C0F5357C88F60CD /* Pods-SeniorCapstone2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
