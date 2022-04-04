@@ -28,7 +28,7 @@
 		2898F18627D12D3900C880D2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		289BD48027CD355E00BB7F9A /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		289BD48427CD358A00BB7F9A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		5DBAB7E627CD2A00009953B2 /* SeniorCapstone2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorCapstone2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D53D3A427F72E6300B38983 /* SeniorCapstone2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SeniorCapstone2.app; path = "/Users/tomiwababalola/Documents/SeniorCapstone2/build/Debug-iphoneos/SeniorCapstone2.app"; sourceTree = "<absolute>"; };
 		5DBAB7E927CD2A00009953B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DBAB7EB27CD2A00009953B2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5DBAB7ED27CD2A00009953B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,16 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				5DBAB7E827CD2A00009953B2 /* SeniorCapstone2 */,
-				5DBAB7E727CD2A00009953B2 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		5DBAB7E727CD2A00009953B2 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5DBAB7E627CD2A00009953B2 /* SeniorCapstone2.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		5DBAB7E827CD2A00009953B2 /* SeniorCapstone2 */ = {
@@ -105,7 +96,7 @@
 				28980B3027D7A08000140469 /* FirebaseFirestore */,
 			);
 			productName = SeniorCapstone2;
-			productReference = 5DBAB7E627CD2A00009953B2 /* SeniorCapstone2.app */;
+			productReference = 5D53D3A427F72E6300B38983 /* SeniorCapstone2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -132,10 +123,7 @@
 				Base,
 			);
 			mainGroup = 5DBAB7DD27CD2A00009953B2;
-			packageReferences = (
-				28980B2F27D7A08000140469 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
-			productRefGroup = 5DBAB7E727CD2A00009953B2 /* Products */;
+
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
