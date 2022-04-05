@@ -507,10 +507,6 @@
                                     <segue destination="ZDc-7B-a1E" kind="show" id="VVp-pe-MNs"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM" translatesAutoresizingMaskIntoConstraints="NO" id="IH8-fb-SeT">
-                                <rect key="frame" x="44" y="395" width="317" height="301"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cnc-yj-rcz">
                                 <rect key="frame" x="314" y="82" width="35" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -522,6 +518,10 @@
                                     <segue destination="9NI-WT-o0x" kind="show" id="trq-OH-DxA"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="STEM" translatesAutoresizingMaskIntoConstraints="NO" id="IH8-fb-SeT">
+                                <rect key="frame" x="38" y="392" width="317" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="11S-mk-IJY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -634,14 +634,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVr-nB-5as">
-                                <rect key="frame" x="16" y="159" width="358" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Ms. Antigua: 3:30 - 4:00pm">
-                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
-                                </buttonConfiguration>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSO-l4-x1C">
                                 <rect key="frame" x="16" y="198" width="358" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -649,6 +641,17 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Mr. Johnson: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVr-nB-5as">
+                                <rect key="frame" x="16" y="159" width="358" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Ms. Antigua: 3:30 - 4:00pm">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="969-vf-4tb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkW-BI-oFw">
                                 <rect key="frame" x="16" y="237" width="358" height="31"/>
@@ -754,6 +757,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="akS-DL-3Av" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2873.8461538461538" y="-50.473933649289094"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RCE-v4-PjP">
+            <objects>
+                <viewController id="2zd-sE-mUH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1iN-f5-ayu">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Vs9-ST-5pe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="j34-EU-z03"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0AM-1T-vUL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3578" y="-58"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pUU-9X-Swh">
