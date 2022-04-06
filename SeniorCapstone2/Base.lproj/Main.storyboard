@@ -641,6 +641,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Mr. Johnson: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="ToW-6v-ncJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVr-nB-5as">
                                 <rect key="frame" x="16" y="159" width="358" height="31"/>
@@ -650,7 +653,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="2zd-sE-mUH" kind="show" id="969-vf-4tb"/>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="f7V-Gc-tDx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkW-BI-oFw">
@@ -660,6 +663,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Mr. Tracy: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="vhR-lu-wEX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xxm-Lf-7A0">
                                 <rect key="frame" x="16" y="276" width="358" height="31"/>
@@ -668,6 +674,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Gengaro: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="c7h-9S-kFG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbK-5m-Sla">
                                 <rect key="frame" x="16" y="315" width="358" height="31"/>
@@ -676,6 +685,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Metsch-Ampel: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="wnI-Qy-5BQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aob-Wo-myB">
                                 <rect key="frame" x="16" y="354" width="358" height="31"/>
@@ -684,6 +696,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Mr. Salama: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="DRe-dp-adv"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCp-yW-jkt">
                                 <rect key="frame" x="16" y="393" width="358" height="31"/>
@@ -692,6 +707,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Buske: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="zs3-fe-CDi"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMD-rZ-UXg">
                                 <rect key="frame" x="16" y="432" width="358" height="31"/>
@@ -700,6 +718,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Truncale: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="l16-l8-nYq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDF-3v-Cue">
                                 <rect key="frame" x="16" y="471" width="358" height="31"/>
@@ -708,6 +729,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Austin: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="7SZ-BP-d1Y"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nVC-cV-28y">
                                 <rect key="frame" x="16" y="510" width="358" height="31"/>
@@ -716,6 +740,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Mr. Gold: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="qnS-bh-kFq"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ns-DM-VnY">
                                 <rect key="frame" x="16" y="549" width="358" height="31"/>
@@ -724,6 +751,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Martin: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="b7M-tH-Sga"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2k-eP-ZxF">
                                 <rect key="frame" x="16" y="588" width="358" height="31"/>
@@ -732,6 +762,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Ladj: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="CLF-sG-1rQ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CeW-eI-dgZ">
                                 <rect key="frame" x="16" y="627" width="358" height="31"/>
@@ -740,6 +773,9 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Ms. Marci: 3:30 - 4:00pm">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="14"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="2zd-sE-mUH" kind="show" id="tbD-vs-fsr"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Office Hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8k-AP-6Ei">
                                 <rect key="frame" x="89" y="88" width="212" height="41"/>
@@ -765,6 +801,26 @@
                     <view key="view" contentMode="scaleToFill" id="1iN-f5-ayu">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="office-hours_featured-blog_725x483" translatesAutoresizingMaskIntoConstraints="NO" id="ftb-1T-ExW">
+                                <rect key="frame" x="52" y="178" width="287" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Appointment Successful!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N8u-bf-87X">
+                                <rect key="frame" x="59" y="438" width="260" height="27"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="See you at 3:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5od-Dh-Cri">
+                                <rect key="frame" x="120" y="488" width="153" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Vs9-ST-5pe"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
@@ -772,7 +828,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0AM-1T-vUL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3578" y="-58"/>
+            <point key="canvasLocation" x="3576.9230769230767" y="-58.293838862559241"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pUU-9X-Swh">
@@ -1115,6 +1171,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="zs3-fe-CDi"/>
         <segue reference="M8Y-8l-6d2"/>
         <segue reference="yRU-um-Reo"/>
     </inferredMetricsTieBreakers>
@@ -1124,6 +1181,7 @@
         <image name="Screen Shot 2022-03-01 at 9.06.44 AM" width="1304" height="1324"/>
         <image name="gear" catalog="system" width="128" height="119"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
+        <image name="office-hours_featured-blog_725x483" width="725" height="483"/>
         <image name="star.circle" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
